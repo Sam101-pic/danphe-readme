@@ -1,42 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HTML Image Map Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Patient Journey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 
-    <h2>Flow Diagram</h2>
-    <img src="Flow_diagram.png" usemap="#flow-map" alt="Flow Diagram">
+    <h2>Patient Journey Flow</h2>
 
-    <map name="flow-map">
-        <area alt="Appoint" title="Appoint" href="Appointment.png" coords="7,58,122,90" shape="rect">
-        <area alt="Visit" title="Visit" href="Visit_Flow.png" coords="166,59,256,89" shape="rect">
-        <area alt="Clinic" title="Clinic" href="Clinical_Flow.png" coords="300,58,392,89" shape="rect">
-        <area alt="Phar" title="Pharmacy" href="Pharmacy_Flow.png" coords="180,186,263,220" shape="rect">
-        <area alt="Phar_Bill" title="Phar_Bill" href="#" coords="56,179,139,226" shape="rect">
-        <area alt="InPatient" title="InPatient" href="#" coords="549,186,621,217" shape="rect">
-        <area alt="Lab" title="Lab" href="Lab_Flow.png" coords="428,187,500,217" shape="rect">
-        <area alt="Bill" title="Billing" href="#" coords="296,184,392,218" shape="rect">
-        <area alt="Radio" title="Radiology" href="Radiology_Flow.png" coords="299,248,392,279" shape="rect">
-        <area alt="Outpatient" title="Outpatient" href="#" coords="309,329,382,371" shape="rect">
-    </map>
+    <figure>
+        <img src="Patient_Journey.jpg" usemap="#image-map" alt="Patient journey process flow diagram">
+        <figcaption>Click on different sections for more details.</figcaption>
+    </figure>
 
-    <hr>
-
-    <h2>Basic Flow</h2>
-    <img src="Basic_Flow.jpg" usemap="#basic-map" alt="Basic Flow">
-
-    <map name="basic-map">
-        <area alt="Appoint" title="Appoint" href="Appointment.png" coords="7,58,122,90" shape="rect">
-        <area alt="Visit" title="Visit" href="Visit_Flow.png" coords="166,59,256,89" shape="rect">
-        <area alt="Clinic" title="Clinic" href="Clinical_Flow.png" coords="300,58,392,89" shape="rect">
-        <area alt="Pharmacy" title="Pharmacy" href="Pharmacy_Flow.png" coords="180,186,263,220" shape="rect">
-        <area alt="Phar_Bill" title="Phar_Bill" href="#" coords="56,179,139,226" shape="rect">
-        <area alt="Admit" title="Admit" href="#" coords="549,186,621,217" shape="rect">
-        <area alt="Lab" title="Lab" href="Lab_Flow.png" coords="428,187,500,217" shape="rect">
-        <area alt="Bill" title="Bill" href="#" coords="296,184,392,218" shape="rect">
-        <area alt="Radiology" title="Radiology" href="Radiology_Flow.png" coords="299,248,392,279" shape="rect">
-        <area alt="OutPat" title="OutPat" href="#" coords="309,329,382,371" shape="rect">
+    <map name="image-map">
+        <area target="_blank" alt="Appointment Flow" title="Appointment Flow" href="AppointmentFlow.html" coords="71,67,185,101" shape="rect">
+        <area target="_blank" alt="Visit Flow 3" title="Visit Flow 3" href="VisitFlow.html" coords="241,25,299,50" shape="rect">
+        <area target="_blank" alt="Visit Flow 2" title="Visit Flow 2" href="VisitFlow.html" coords="239,51,294,72" shape="rect">
+        <area target="_blank" alt="Visit Flow 1" title="Visit Flow 1" href="VisitFlow.html" coords="232,72,288,95" shape="rect">
+        <area target="_blank" alt="Clinical Flow" title="Clinical Flow" href="ClinicalFlow.html" coords="342,44,413,76" shape="rect">
+        <area target="_blank" alt="Lab Modules Flow" title="Lab Modules Flow" href="LabFlow.html" coords="448,290,506,321" shape="rect">
+        <area target="_blank" alt="Radiology Flow" title="Radiology Flow" href="RadiologyFLow.html" coords="324,346,418,379" shape="rect">
+        <area target="_blank" alt="Pharmacy Flow" title="Pharmacy Flow" href="PharmacyFlow.html" coords="198,292,286,326" shape="rect">
     </map>
 
 </body>
