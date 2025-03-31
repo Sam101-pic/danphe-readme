@@ -103,7 +103,7 @@ Start contributing to Danphe EMR with the comprehensive [Setup Guide](https://op
 
 ### 🔗 Interactive Flow Diagram
 
-<a href="./Flow_diagrams/index.html" target="_blank">
+<a href="https://Sam101-pic.github.io/danphe-readme/Flow_diagrams/index.html" target="_blank">
   <img src="./Flow_diagrams/Patient_Journey.jpg" alt="Flow Diagram" />
   </a>
 
